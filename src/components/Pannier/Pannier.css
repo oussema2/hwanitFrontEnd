@@ -1,0 +1,130 @@
+.pannierContainer {
+    display: flex;
+    padding: 100px;
+}
+
+.pannierWrraper {
+    text-align: left;
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 50px;
+}
+
+.pannierTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.lignePannier {
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(189, 181, 181);
+    border: none;
+    outline: none;
+}
+
+.totalPannierContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 50px;
+    height: 130px;
+}
+
+.bagtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.totalShipping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.totalPannier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lignePanniertotal {
+    width: 100%;
+    height: 0.3px;
+    background-color: rgb(189, 181, 181);
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formPanier {
+    width: 50%;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 90px;
+}
+
+.commanderBtn {
+    margin-top: 5px;
+}
+
+.commanderBtnbtn {
+    height: 70px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.commanderBtnbtn:hover {
+    background-color: white;
+    border: 0.5px solid blue;
+    color: blue;
+    transition: 0.5s ease;
+}
+
+.titlePanierTotal {
+    text-align: right;
+}
+
+.totalPannierwrrapper {
+    width: 350px;
+}
+
+.btnConfirmation {
+    margin-top: 20px;
+}
+
+.btnConf {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btnConf:hover {
+    transition: 0.5s ease;
+    background-color: white;
+    color: green;
+    border: 0.5px green solid;
+}

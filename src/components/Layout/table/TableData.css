@@ -1,0 +1,40 @@
+.buttonAction {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.notDelivred {
+    background-color: Red;
+}
+
+.notDelivred:hover {
+    background-color: white;
+    border: 0.5px solid red;
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+
+.delivred {
+    background-color: green;
+}
+
+.delivred:hover {
+    background-color: white;
+    border: 0.5px solid green;
+    color: green;
+    transition: 0.5s ease-in-out;
+}
+
+.deleteIconListPRoduitAdmin {
+    color: red;
+}
+
+.actionTable {
+    display: flex;
+    justify-content: space-evenly;
+}

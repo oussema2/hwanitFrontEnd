@@ -1,0 +1,29 @@
+.cartesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 21px;
+}
+
+.carteTags {
+    margin-left: 9.5rem;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.h2CarteTag {
+    padding: 9px;
+    font-size: 23px;
+    text-align: left;
+}
+
+.h4CarteTag {
+    padding: 9px;
+    font-size: 14px;
+    text-align: left;
+}

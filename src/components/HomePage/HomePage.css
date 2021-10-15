@@ -1,0 +1,17 @@
+.homeBRandHomePAge {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.titleOfHomeBRands {
+    font-size: 30px;
+    color: #ffa200;
+    position: absolute;
+    top: 34px;
+}

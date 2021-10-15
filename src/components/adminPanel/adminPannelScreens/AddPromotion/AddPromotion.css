@@ -1,0 +1,32 @@
+.produitPromoConatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.produitPromoConatainerSuperieur {
+    overflow: scroll;
+    display: block;
+    height: 450px;
+}
+
+.produitPromo {
+    padding: 25px;
+}
+
+.addedProduitPromoion {
+    margin-top: 70px;
+    height: auto;
+}
+
+.produiitContainrPromoAdded {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.hwanitCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardHanout {
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.titleHanout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

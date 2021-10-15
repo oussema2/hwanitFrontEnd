@@ -1,0 +1,69 @@
+.tableCategorie {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.tableTitleContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.titleLIstCat {
+    margin: auto;
+}
+
+.titleLIstCatContainer {
+    margin-top: 70px;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px blue solid;
+    border-radius: 10px;
+}
+
+.titleLIstCatContainer:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: white;
+}
+
+.theTable {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.tableBodyLigneListCat {
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+
+.deleteButtonCats {
+    height: 45px;
+    width: 90px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.deleteButtonCats:hover {
+    background-color: white;
+    color: red;
+    transition: 0.3s ease;
+    border: red 1px solid;
+}

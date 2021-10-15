@@ -1,0 +1,62 @@
+.containerAddCategorie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    width: 100%;
+}
+
+.inputContainer {
+    padding: 50px;
+    width: 100%;
+}
+
+.inputText {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid gray;
+}
+
+.submitButton {
+    width: 100%;
+}
+
+.buttonAdd {
+    height: 50px;
+    width: 10%;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: 0.5px solid gray;
+    text-align: center;
+}
+
+.titleContainer {
+    width: 100%;
+}
+
+.inputText::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+.inputText:hover {
+    border: 3px solid blue;
+}
+
+.buttonAdd:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.3s ease;
+}

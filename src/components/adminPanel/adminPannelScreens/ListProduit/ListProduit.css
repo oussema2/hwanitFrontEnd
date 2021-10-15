@@ -1,0 +1,9 @@
+.selectionTypeProduit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}

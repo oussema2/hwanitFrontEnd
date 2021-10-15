@@ -1,0 +1,29 @@
+.carte {
+    height: 224px;
+    width: 405px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.carte:hover {
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.carteContent {
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #ffa200;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.display {
+    opacity: 1;
+    transition: 0.5s ease;
+}

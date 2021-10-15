@@ -1,0 +1,129 @@
+.commandePageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.commandeBox {
+    box-shadow: 1px 1px 15px 1px #888888;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 50px;
+}
+
+.titleCommande {
+    font-size: 40px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.theTitleCOmmqnde {
+    font-weight: lighter;
+}
+
+.commandeLigne {
+    background-color: gray;
+    height: 4px;
+}
+
+.middleSIdeCommande {
+    display: flex;
+}
+
+.middleSIdeCommandeLeft {
+    flex: 5;
+    background-color: rgb(230, 229, 227);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.middleSIdeCommandeRight {
+    flex: 5;
+    /*   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; */
+    /* padding-left: 25%; */
+}
+
+.hannoutDetailCOmmande {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hannoutDetailCOmmandeData {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.tablemiddleSIdeCommandeLeft {
+    width: 100%;
+}
+
+.titleBigCommande {
+    flex: 10;
+}
+
+.logoCommande {
+    flex: 2;
+}
+
+.middleSIdeCommandeRightData {
+    margin-left: 50%;
+}
+
+.miidleSideCommandeBottom {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tablePRoduitCommandeDetails {
+    width: 100%;
+}
+
+.thetablePRoduitCommandeDetails {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableHEadCommandePRoduit {
+    height: 50px;
+}
+
+.commandeLProduitigne {
+    background-color: blue;
+    height: 0.1px;
+    width: 519%;
+}
+
+.ligneTableProduitCOmmande {
+    height: 40px;
+}
+
+.tablePRoduitCommandeTotalsPRix {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.thetabledataProduit {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.tablePRoduitCommandeTitle {
+    font-weight: bold;
+}

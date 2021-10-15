@@ -1,0 +1,66 @@
+.notFoundContainer {
+    background-color: rgb(240, 236, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.notFoundWrrapper {
+    height: 500px;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px #888888
+}
+
+.titleNotFOund {
+    margin: auto;
+    font-size: 250px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.notFoundZero {
+    color: rgb(79, 79, 192);
+    transition: 0.5s ease;
+    transform: scale(100%);
+    cursor: pointer;
+}
+
+.notFoundZero:hover {
+    transition: 0.5s ease;
+    transform: scale(150%);
+}
+
+.btnGoHome {
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transform: scale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btnGoHome:hover {
+    background-color: white;
+    color: blue;
+    border: 0.5px solid blue;
+    transition: 0.5s ease;
+    transform: scale(150%);
+}
+
+.containerTextnotfound {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

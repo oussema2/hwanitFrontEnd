@@ -1,0 +1,126 @@
+.TopFlashContainer {
+    height: 400px;
+    background-color: #F5F5F5;
+    position: relative;
+    padding: 70PX 100px;
+}
+
+.TopFlashContainerItem {
+    height: 100%;
+}
+
+.titleTopFlashContainerItem {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.TopFlashContainerItemHeader {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 600px;
+}
+
+.TopFlashContainerDate {
+    height: 40px;
+    background-color: red;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    margin-left: 1rem;
+}
+
+.itemsInDeals {
+    margin-top: 50px;
+    height: 80%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftArrowTopFlashDeals {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.rightArrowTopFlashDeals {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.itemsInDealslist {
+    transform: translateX(0px);
+    transition: 1s ease;
+    display: flex;
+    align-items: center;
+}
+
+.todFlashCardITem {
+    padding: 20px;
+    position: relative;
+    width: 190px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cartTitleDeals:hover {
+    color: #ffa200;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.cardItemICons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    width: 40px;
+    align-items: center;
+    border: rgb(236, 228, 228) 0.5px solid;
+    top: 30px;
+    right: -50px;
+}
+
+.ligneIcons {
+    width: 100%;
+    background-color: rgb(236, 228, 228);
+    height: 0.5px;
+}
+
+.cardItemICon {
+    height: 100%;
+    width: 49%;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.cardItemICon:hover {
+    background-color: #0a3040;
+    transition: 0.5s;
+    color: white;
+}
+
+.hovered {
+    transform: translateX(-230%);
+    transition: 0.3s ease;
+}
+
+.quit {
+    transform: translateX(230%);
+    transition: 0.s ease;
+}

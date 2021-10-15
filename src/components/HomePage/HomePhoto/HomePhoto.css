@@ -1,0 +1,85 @@
+.slider {
+    height: 400px;
+    position: relative;
+    background-color: rgb(250, 249, 246);
+    width: 90%;
+}
+
+.container-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 400px;
+    height: 350px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.slide-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 45%;
+    left: 250px;
+    font-size: 50px;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 45%;
+    right: 250px;
+    font-size: 50px;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition-duration: 1s ease;
+}
+
+.saleUp {
+    color: red;
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.afterSale {
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.shipping {
+    padding: 10px;
+}

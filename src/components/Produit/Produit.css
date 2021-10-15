@@ -1,0 +1,98 @@
+.containerOfPROduit {
+    display: flex;
+}
+
+.filterSide {
+    flex: 3;
+}
+
+.produitCardSide {
+    flex: 10;
+}
+
+.produitCardSideContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.cardContainer {
+    padding: 10px;
+}
+
+.showDetailButton {
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0a3040;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.showDetailButton:hover {
+    background-color: white;
+    color: #0a3040;
+    transition: 0.5s ease;
+    border: 0.5px solid #0a3040;
+}
+
+.produitPrixSide {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.promotionTag {
+    background-color: red;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 7px;
+}
+
+.inPromoProd {
+    text-decoration: line-through;
+}
+
+.paginationside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.paginationButn {
+    display: flex;
+}
+
+.btnPagination {
+    margin: 10px;
+    font-size: 15px;
+    background-color: #0a3040;
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnPagination:hover {
+    background-color: white;
+    border: 0.5px solid #0a3040;
+    color: #0a3040;
+    transition: 0.5s ease;
+}

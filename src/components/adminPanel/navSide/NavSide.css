@@ -1,0 +1,173 @@
+.sideNavPannel {
+    width: 15%;
+    background-color: rgb(62, 51, 80);
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+}
+
+.headerPannel {
+    height: 50px;
+    background-color: rgb(220, 223, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    font-weight: lighter;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.ligne {
+    width: 100%;
+}
+
+.profileSide {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+}
+
+.profileSideImage {
+    border-radius: 50%;
+    width: 65px;
+    margin-left: 15px;
+    border: 7px solid white;
+}
+
+.profileName {
+    color: white;
+    font-weight: normal;
+}
+
+.titleAction {
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.actionMEnuwrapper:hover {
+    background-color: white;
+    color: rgb(62, 51, 80);
+    transition: 0.5s ease;
+}
+
+.navSideMenu {
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.iconTitle {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.actionMEnu {
+    height: 50px;
+    overflow: hidden
+}
+
+.actionMEnuwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.arrowIcon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 3px;
+}
+
+.expand {
+    height: 200px;
+    transition: 0.5s ease;
+}
+
+.listeActions {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.close {
+    height: 50px;
+    transition: 0.5s ease;
+}
+
+.listeActionItem {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.listeActionsitem:hover {
+    transition: 0.5s ease;
+    color: #ffa200;
+    cursor: pointer;
+}
+
+.headerIconContainer {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.headerIconContainer:hover {
+    color: #ffa200;
+    transition: 0.5s ease;
+}
+
+.headerside {
+    flex: 30;
+}
+
+.headerIcon {
+    font-size: 25px;
+}
+
+.hide {
+    width: 0%;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+
+.show {
+    width: 15%;
+    transition: 0.3s ease;
+}

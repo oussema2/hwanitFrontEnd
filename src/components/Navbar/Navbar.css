@@ -1,0 +1,337 @@
+.navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #0a3040;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.MiniNavbar {
+    height: 100px;
+    transition: 1s ease;
+    overflow: hidden;
+}
+
+.NormalNavbar {
+    height: 180px;
+    transition: 1s ease;
+}
+
+.navbarContainer {
+    display: flex;
+    height: 100%;
+    padding: 0 150px;
+}
+
+.navbarLeft {
+    flex: 2.5;
+}
+
+.navbarCenter {
+    flex: 6;
+    position: relative;
+}
+
+.navbarCenterInput {
+    background-color: #fff;
+}
+
+.navbarCenterContainer {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.navbarRight {
+    flex: 4;
+    display: flex;
+}
+
+.navbarLeftImg {
+    width: 150px;
+    margin-top: 15px;
+}
+
+.navbarLeftWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* buttom navbar */
+
+.navbarButtom {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.navbarLeftKey {
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.navbarButtomCenter {
+    flex: 6;
+    /* background-color: green; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbarCenterInputValue {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+}
+
+.navbarCenterButton {
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.navbarBottomList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.navbarBottomListValue {
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.navbarBottomListValue:hover {
+    color: #ffa200;
+    transition: 0.2s;
+}
+
+.navbarButtomRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    height: 100%;
+}
+
+.navbarRightLogRegister {
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarRightLogin {
+    padding: 20px;
+}
+
+.navbarRightRegister {
+    padding: 20px;
+}
+
+.navbarRightLogin:hover {
+    color: #ffa200;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navbarRightRegister:hover {
+    color: #ffa200;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navbarRightBasket {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbarRightBasketIcon {
+    padding: 20px;
+    width: 3rem;
+}
+
+.navbarRightBasketTotal {
+    padding: 20px
+}
+
+.badge {
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href], .badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: rgb(255, 162, 0);
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.menu>li>a {
+    background: blue;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu ul {
+    background: white;
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .5s ease;
+    top: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu:hover ul {
+    height: 250px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu ul {
+    color: #000;
+    display: block;
+    padding: 5px 20px;
+}
+
+.menu:hover {
+    color: #ffa200;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+ul {
+    width: 100%;
+}
+
+.deListItem {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.deListItem:hover {
+    background-color: #ffa200;
+    transition: 0.5s ease;
+}
+
+.hiddenNavbar {
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.showNavbar {
+    opacity: 1;
+    transition: 0.1s ease;
+}
+
+.logOutButton {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logOutButton:hover {
+    border: 0.5px solid red;
+    background-color: white;
+    color: red;
+    transition: 0.5s ease;
+}
+
+.menuCatNavBar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    height: 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.menuCatNavBar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.menuCatNavBar::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.menuCatNavBar::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(174, 201, 25, 0.3);
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menuCatNavBar {
+    scrollbar-width: thin;
+}
+
+.menuCatNavBar {
+    scrollbar-color: #05050f #e0e0e0;
+    scrollbar-width: thin;
+}
+
+.menuCatNavBar:hover {
+    height: 100%;
+}
+
+.basketIconNavBAr:hover {
+    font-size: 40px;
+    transition: 0.5s ease;
+}
